@@ -56,5 +56,5 @@
  - 暴力匹配算法：如图，一个元素挨个比较，相同则继续比较，不同则子串右移再重新比较。其中右移后从g开始比较，g已经在之前的比较中知道和o,o,d,不一样，但是还是会进行比较。
 <img src="https://img-blog.csdnimg.cn/2021040122401255.jpg#pic_center"   width="60%" >
  - KMP匹配算法：使暴力匹配中的重复比较去掉，即省去上面的g和o,o,d比较的步骤。因此创造了“部分匹配值“，以此值来跳过那些重复的长度。
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20210401224749541.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDg1NjQ5Mg==,size_16,color_FFFFFF,t_70#pic_center)
 
+ <img src="https://img-blog.csdnimg.cn/20210401224749541.jpg#pic_center"   width="80%" >
